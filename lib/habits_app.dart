@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_habits_app/onboardingScreens/intro_slider.dart';
+import 'package:my_habits_app/signIn/signupform.dart';
 
 
 class HabitsApp extends StatelessWidget {
@@ -8,7 +8,7 @@ class HabitsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SafeArea(child: IntroSlider()),
+      home: SafeArea(child: SignInPage()),
     );
   }
 }
